@@ -1,2 +1,12 @@
-ReactDOM.render(<p>This is Keerthi</p>,document.getElementById("root"))
-
+function MainContent(){
+    return(
+        <h1>I'm learning React</h1>
+    )
+}
+ReactDOM.render(
+    <div>
+<p>This is Keerthi</p>
+<MainContent/>
+</div>,
+document.getElementById("root")
+)
